@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <action name="openUrl" param="https://google.com" description="Open Browser" />
+    <action name="Click" param="//*[@id=&quot;tsf&quot;]/div[2]/div/div[1]/div/div[1]/input" description="Click Element" />
+    <action name="setValue" param="//*[@id=&quot;tsf&quot;]/div[2]/div/div[1]/div/div[1]/input" value="Netcracker" description="Set Text Value" />
+    <action name="Click" param="//*[@id=&quot;tsf&quot;]/div[2]/div/div[3]/center/input[1]" description="Click Search Button" />
+    <action name="Click" param="//*[@id=&quot;tsf&quot;]/div[2]/div/div[2]/div[2]/div[2]/center/input[1]" description="Click Search Button" />
+    <action name="Click" param="//*[@id=&quot;rso&quot;]/div[1]/div/div[1]/div/div/div[1]/a[1]/h3" description="Click First Result" />
+    <action name="checkElementVisible" param="//*[@id=&quot;main-menu&quot;]/div/div[1]/a/img" description="checkElementVisible" />
+    <action name="Screenshot" description="Open Browser" />
+</configuration>

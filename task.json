@@ -1,0 +1,42 @@
+{
+  "00": {
+    "typeOfAction": "openUrl",
+    "parameter": "https://google.com",
+    "description": "Open Browser"
+  },
+  "01": {
+    "typeOfAction": "Click",
+    "parameter": "//*[@id=\"tsf\"]/div[2]/div/div[1]/div/div[1]/input",
+    "description": "Click Element"
+  },
+  "02": {
+    "typeOfAction": "setValue",
+    "parameter": "//*[@id=\"tsf\"]/div[2]/div/div[1]/div/div[1]/input",
+    "value": "Netcracker",
+    "description": "Set Text Value"
+  },
+  "03": {
+    "typeOfAction": "Click",
+    "parameter": "//*[@id=\"tsf\"]/div[2]/div/div[3]/center/input[1]",
+    "description": "Click Search Button"
+  },
+  "04": {
+    "typeOfAction": "Click",
+    "parameter": "//*[@id=\"tsf\"]/div[2]/div/div[2]/div[2]/div[2]/center/input[1]",
+    "description": "Click Search Button"
+  },
+  "05": {
+    "typeOfAction": "Click",
+    "parameter": "//*[@id=\"rso\"]/div[1]/div/div[1]/div/div/div[1]/a[1]/h3",
+    "description": "Click First Result"
+  },
+  "06": {
+    "typeOfAction": "checkElementVisible",
+    "parameter": "//*[@id=\"main-menu\"]/div/div[1]/a/img",
+    "description": "checkElementVisible"
+  },
+  "07": {
+    "typeOfAction": "Screenshot",
+    "description": "Screenshot"
+  }
+}
